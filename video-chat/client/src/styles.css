@@ -1,0 +1,108 @@
+body {
+    /* background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://i.pinimg.com/originals/8f/14/57/8f14578ef69a4c53352955d1e072eda6.png);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 100vh;
+	width: 100%;
+  background: rgb(170, 127, 172);
+  background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  align-items: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#video-call-div {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  width: 100%;
+  height: 60%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* display: none; */
+}
+
+#local-video {
+  position: absolute;
+  transform: scaleX(-1);
+  top: 0;
+  right: 0;
+  margin: 16px;
+  border-radius: 16px;
+  max-width: 30%;
+  max-height: 30%;
+  background: #ffffff;
+}
+
+.local{
+  display:none;
+}
+#remote-video {
+  /* background: #000000; */
+  width: 100%;
+  height: auto;
+  
+}
+/* .remote{
+  height:800px;
+
+} */
+
+
+.call-action-div {
+  position: absolute;
+  left: 45%;
+  bottom: 32px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#hangup{
+  display: none;
+  /* height:50px; */
+  width:100px;
+  /* margin:0px 50px 0px 50px; */
+  margin:auto;
+  /* top:2px;
+  left:3px; */
+  border-radius: 16px;
+  padding:auto;
+}
+ #disable{
+   /* position: absolute; */
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-end; */
+  align-items: center;
+   margin:auto;
+   margin-left: 29px;
+   padding:auto;
+   /* left:75px; */
+ }
+/* #hangup{
+  margin:0px;
+  height:50px;
+  width:50px;
+  border-radius:18px;
+  position: absolute;
+  bottom:2px;
+  align-items: flex-end;
+} */
